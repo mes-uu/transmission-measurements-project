@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="a" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 824.95 323.22">
+  <defs>
+    <style>
+      .b {
+        fill: none;
+        stroke: #000;
+        stroke-width: .07px;
+      }
+    </style>
+  </defs>
+  <path class="b" d="M48.22,11.37h91.06V.04h182.13v11.34h182.13V.04h182.13v11.34h91.06"/>
+  <path class="b" d="M776.73,11.37v37.56h48.19v75.12h-48.19v75.12h48.19v75.12h-48.19v37.56"/>
+  <path class="b" d="M776.73,311.85h-91.06v11.34h-182.13v-11.34h-182.13v11.34h-182.13v-11.34H48.22"/>
+  <path class="b" d="M48.22,311.85v-37.56H.04v-75.12h48.19v-75.12H.04V48.93h48.19V11.37"/>
+  <path class="b" d="M307.24,40.66v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,40.66v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M307.24,90.74v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,90.74v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M307.24,140.82v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,140.82v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M307.24,190.9v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,190.9v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M307.24,240.98v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,240.98v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M307.24,291.06v-8.5h-153.78v8.5h153.78"/>
+  <path class="b" d="M671.49,291.06v-8.5h-153.78v8.5h153.78"/>
+</svg>

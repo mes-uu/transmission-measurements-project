@@ -4,7 +4,7 @@ This README documents hardware with a [description](#description), a [list of ma
 
 ## Description
 
-The hardware and software described here enables two main funtionalities:
+The hardware and software described here enables two main functionalities:
 
 1) Remote, programmable power control by the main board (Raspberry Pi) for each module
 
@@ -18,7 +18,7 @@ In addition, the scripts in the [software](./software/) directory include
 
 * An example implementation of the module interface for Arduino UNO, with time synchronization, a read-write register, and a remotely invokable funtion
 
-The interface board only occupies the I2C pins of the module. This makes the interface board stackable with any board that dont reely in the two I2C pins. For Arduinos and in cae of a double-occupation of the hardware I2C interface, either I2C bus can be configured to use alternative pins with the [SoftwareSerial.h](https://docs.arduino.cc/learn/built-in-libraries/software-serial/) library.
+The interface board only occupies the I2C pins of the module. This makes the interface board stackable with any board that does not rely on the two I2C pins. For Arduinos and in case of a double-occupation of the hardware I2C interface, either I2C bus can be configured to use alternative pins with the [SoftwareSerial.h](https://docs.arduino.cc/learn/built-in-libraries/software-serial/) library.
 
 <p float="left">
 <img src="images/diagram_conotrol_and_datalogging_sytem.png" alt="(image not found)" height="280">

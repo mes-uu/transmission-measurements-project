@@ -38,25 +38,25 @@ This buoy is roughly 1m tall, 0.6m wide, it weighs TODO kg and provides a floati
 
 Fabrication of the mounting cross for the weights
 
-   * According to the blueptint '[blueprint_counterweight_mount_v2.pdf](blueprint_counterweight_mount_v2.pdf)'
+   * According to the blueprint '[blueprint_counterweight_mount_v2.pdf](blueprint_counterweight_mount_v2.pdf)'
 
    * The dimensions of the cross must be adjusted to the outer diameter of the weightlifting weights. The hole diameters are chosen larger than the diameter of the four threaded rods to allow enough clearance to create the V-shape of the counterweight.
 
-   * TODO material choice
+   * [TODO] material choice
 
-The following steps describe an assembly that aims at making transportation easy and handeling during the deployment easy and fast. For example, the float and counterweight can be transported separaterly, and the weights are only added at the end. It may be useful to change the order of the steps for other scenarios.
+The following steps describe an assembly that aims at making transportation easy and handling during the deployment simple and fast. For example, the float and counterweight can be transported separately, and the weights are only added at the end. It may be useful to change the order of the steps for other scenarios.
 
 1) Float (without fenders)
 
-   * With the carrier plate stacked on the safety buoy, thread the polyester rope trough one of the eyes of the carrier plate, the aligned holes of the safety buoy, and an eye of the turnbuckles that connect to the counterweight. This is repeated for all four corners, the loops are closed with one or two wire rope clamp(s). These loops mechanically connect the eyes of the carrier plate to the eyes holding the counterweight. They thus are the crutial part to consider when the buoy is lifted at the eyes of the carrier plate.
+   * With the carrier plate stacked on the safety buoy, thread the polyester rope trough one of the eyes of the carrier plate, the aligned holes of the safety buoy, and an eye of the turnbuckles that connect to the counterweight. This is repeated for all four corners, the loops are closed with one or two wire rope clamp(s). These loops mechanically connect the eyes of the carrier plate to the eyes holding the counterweight. They thus are the crucial part to consider when the buoy is lifted at the eyes of the carrier plate.
 
 2) Counterweight (without weights)
 
    * Connect one turnbuckle to each rod. To avoid loosening between rods and turnbuckles from vibrations, these connections may be permanently fixated.
 
-   * Connect one lock nut to the open end of each rod, mkaing sure that the nut interlocks with the rod. This is to avoid loosing the cross and mounted weights.
+   * Connect one lock nut to the open end of each rod, making sure that the nut interlocks with the rod. This is to avoid loosing the cross and mounted weights.
 
-   * Connect the the four threaded rods to the cross carrying the counter weights with retaining rings. Each rod has one retaining ring above and one retaining ring below the cross, leaving enough clearance in between to create the V-shape of the counterweight. It is necessary for step 4 that the rods can be rotated along their axes. The mounting height on each rod can be adjusted to tune the buoy dynamics.
+   * Connect the four threaded rods to the cross carrying the counter weights with retaining rings. Each rod has one retaining ring above and one retaining ring below the cross, leaving enough clearance in between to create the V-shape of the counterweight. It is necessary for step 4 that the rods can be rotated along their axes. The mounting height on each rod can be adjusted to tune the buoy dynamics.
 
 3) Joining float and counterweight
 
@@ -78,11 +78,11 @@ The following steps describe an assembly that aims at making transportation easy
 
 6) Adding the weights
 
-   * A variable number of weights is fixed to the cross by inserting a long threaded bolt trough the center hole of the cross, loading it with washers with a diameter equal to the inner diameter of the weightlifting weights, adding the weights, adding a stirdy top to horizontally fixate the weigths, and fasterning the top for example with a wing nut.
+   * A variable number of weights is fixed to the cross by inserting a long threaded bolt trough the center hole of the cross, loading it with washers with a diameter equal to the inner diameter of the weightlifting weights, adding the weights, adding a sturdy top cover to horizontally fixate the weights, and fastening the top for example with a wing nut.
 
 ## Remarks
 
-* Vibrations caused by the ship during transits, and the perpetual motion in the water lossened the connections at the turnbuckles. This effect was supressed by using zip ties as described in step 3 above. This imporived but did not completely solve the issue. The same applies to the screw-locks of the retaining rings, which worked reliably during 12h when strongly tightened
+* Vibrations caused by the ship during transits, and the perpetual motion in the water loosened the connections at the turnbuckles. This effect was supressed by using zip ties as described in step 3 above. This improved but did not completely solve the issue. The same applies to the screw-locks of the retaining rings, which worked reliably during 12h when strongly tightened
 
 <!--
 [//]: # (* Lifting and towing: The )

@@ -1,6 +1,6 @@
 # Internal Mounting System
 
-This mounting system is a customizable concept to create a rigid arrangement of the space inside a rectangluar box.
+This mounting system is a customizable concept to create a rigid arrangement of the space inside a rectangular box.
 
 The detailed description with blueprints and example cutouts can be found in the file '[documentation_internal_mounting _system.pdf](documentation_internal_mounting _system.pdf)'. Example files of laster cuts are also provided in the directory '[lasercuts](./lasercuts/)'. The tools used are the laser cutter and a sander. The materials used are cardboard, wood, and acrylic plastic.
 

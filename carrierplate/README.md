@@ -18,7 +18,7 @@ The carrierplate has dimensions of 380x320(x10)cm, it weighs 4kg and provides a 
 | <div style="width:150px">Image</div> | Designator | Quantity | Price/Quantity (EUR) | Total Cost (EUR) | Source | Remarks |
 | - | - | - | - | - | - | - |
 |  | Betonplex | 0.2m2 | 22.43 per m2 | 4.49 | https://www.hornbach.nl/p/betonplex-eucalyptus-2500x1250x18-mm/10692335/ | Thickness 18mm |
-|  | Rod clamp | 4 | 7.95 | 31.80 | https://www.hornbach.nl/p/beugel-vlak-steigerbuis-o-48-mm/5706771/ | Dimensions to consider for the placement on th e plate are: Holes M10, distance between the two mountig holes, width of the clamp to avoid completely closing a slit for the straps |
+|  | Rod clamp | 4 | 7.95 | 31.80 | https://www.hornbach.nl/p/beugel-vlak-steigerbuis-o-48-mm/5706771/ | Dimensions to consider for the placement on the plate are: Holes M10, distance between the two mounting holes, width of the clamp to avoid completely closing a slit for the straps |
 |  | Ring eye |  |  |  |  |  |
 |  | Bolt |  |  |  |  |  |
 |  | Locknut |  |  |  |  |  |

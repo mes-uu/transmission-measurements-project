@@ -1,6 +1,6 @@
 # Waterproof Testbed
 
-The documentaion of the subcomponents can be found in the subdirectories.
+The documentation of the subcomponents can be found in the subdirectories.
 
 <p float="left">
 <img src="images/testbed.jpeg" alt="(image not found)" height="280">
@@ -9,7 +9,7 @@ The documentaion of the subcomponents can be found in the subdirectories.
 
 ## Waterproof Case
 
-The case that houses the electronics was chosen for its waterproofness rating IP68, and was found to be at least reasonably permissive to radiosignals in the range of a few 100MHz to a few GHz. It conveniently features a transparent cover. More info and documentation can be found in the files ['info_waterproof_case.pdf'](info_waterproof_case.pdf) and 
+The case that houses the electronics was chosen for its waterproofness rating IP68, and was found to be at least reasonably permissive to radio signals in the range of a few 100MHz to a few GHz. It conveniently features a transparent cover. More info and documentation can be found in the files ['info_waterproof_case.pdf'](info_waterproof_case.pdf) and 
 ['blueprint_waterproof_case.pdf'](blueprint_waterproof_case.pdf) .
 
 | <div style="width:150px">Image</div> | Designator | Quantity | Price/Quantity (EUR) | Total Cost (EUR) | Source | Remarks |

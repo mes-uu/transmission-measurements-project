@@ -28,7 +28,7 @@ The repository is structured according to different components of the instrument
 
   * An [internal mouting system](testbed/internal_mounting_system/README.md) to structure the space inside the testbed
 
-  * (will be added later) Documentation of the tranmsission modules used to test signal quality of different technologies
+  * (will be added later) Documentation of the transmission modules used to test signal quality of different technologies
 
 ## Team and Funding
 

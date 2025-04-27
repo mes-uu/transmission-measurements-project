@@ -1,5 +1,7 @@
 # Transmission Measurements Project
 
+This repository documents instrumentation for measurements at the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. It is currently under construction, some more canonic details of the hardware descriptions will be added shortly and marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
+
 <p float="left">
 <img src="testbed/images/testbed.jpeg" alt="(image not found)" height="280">
 <img src="buoy/images/buoy_1.jpeg" alt="(image not found)" height="280">
@@ -41,6 +43,10 @@ The research project is part of the Vici ENW programme ['Tracing Marine Macropla
   * Technical support: Marcel Portanger (m.portanger@uu.nl)
   * Deployments and Measurements: Lagrangian Ocean Analysis team Utrecht (https://oceanparcels.org/utrechtteam)
   * Pictures: Isabelle Pelster José (i.pelsterjose@students.uu.nl), Goncalo Borges Simoes de Albergaria Dias (g.borgessimoesdealbergariadias@uu.nl)
+
+## Get involved
+
+Comments and suggestions are always welcome. Please create an issue to share your feedback or question, or if you prefer send a pull request.
 
 ## License
 

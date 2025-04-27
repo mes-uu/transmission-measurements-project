@@ -1,10 +1,18 @@
 # Transmission Measurements Project
 
-TODO describe project and instrument.
-
+<p float="left">
 <img src="testbed/images/testbed.jpeg" alt="(image not found)" height="280">
 <img src="buoy/images/buoy_1.jpeg" alt="(image not found)" height="280">
 <img src="testbed/images/testbed_in_water.png" alt="(image not found)" height="280">
+</p>
+
+The hardware documented here is developed as part of a research project to study marine macroplastic pollution. We examine physical processes and conduct numerical simulations to better understand how and where big pieces of floating plastic are transported. Field measurements from drifter releases complement these approaches by providing track records from known objects that are carried on the water surface. One central component of most drifter types is the reporting of position (or additional) data, which requires signal transmissions from the water surface. The hardware here was developed to further explore the potential of different transmission technologies for this application. We mainly focus on alternatives to commonly used satellite technologies, such as cellular and LoRa. 
+
+We follow open science principles to 
+* make our research and insights publicly accessible 
+* aid making our research reproducible 
+* provide insights into the measurements that generate datasets we provide 
+* make material available for projects that build or rely on parts or our project
 
 ## Repository Contents and Structure
 
@@ -30,9 +38,10 @@ The research project is part of the Vici ENW programme ['Tracing Marine Macropla
 * Contributors:
 	* Co-Supervision PhD: Rolf Hut (R.W.Hut@tudelft.nl)
   * Supervision PhD: Erik van Sebille (e.vansebille@uu.nl)
+  * Technical support: Marcel Portanger (m.portanger@uu.nl)
   * Deployments and Measurements: Lagrangian Ocean Analysis team Utrecht (https://oceanparcels.org/utrechtteam)
   * Pictures: Isabelle Pelster José (i.pelsterjose@students.uu.nl), Goncalo Borges Simoes de Albergaria Dias (g.borgessimoesdealbergariadias@uu.nl)
 
 ## License
 
-This project is released under the [Creative Commons - Attribution - ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.
+This project is released under the [Creative Commons - Attribution - NonCommercial - ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.

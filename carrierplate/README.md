@@ -1,15 +1,17 @@
-# Carrier plate
+# Carrierplate
 
 This README documents hardware with a [description](#description), a [list of materials](#list-of-materials), instructions for the [assembly](#assembly), additional [remarks](#remarks), and [example use cases](#example-use-cases).
 
 ## Description
 
-The carrier plate has dimensions of 380x320(x10)cm, it weighs 4kg and provides a platform of 24x30cm. Objects can be tied to it with ratchet straps and the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly. TODO does it float?
+The carrierplate has dimensions of 380x320(x10)cm, it weighs 4kg and provides a platform of 24x30cm. Objects can be tied to it with ratchet straps at the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly. TODO does it float?
 
+<p float="left">
 <img src="images/carrierplate_front.jpg" alt="(image not found)" height="280"> 
 <img src="images/carrierplate_back.jpg" alt="(image not found)" height="280">
 <img src="images/carrierplate_on_rod_horizontal.png" alt="(image not found)" height="280">
 <img src="images/carrierplate_on_rod_vertical.jpeg" alt="(image not found)" height="280">
+</p>
 
 ## List of Materials
 
@@ -37,3 +39,7 @@ The carrier plate has dimensions of 380x320(x10)cm, it weighs 4kg and provides a
 ## Remarks
 
 ## Example Use Cases
+
+## License
+
+See the [README](./../README.md) in the [root directory](./../) of this repo for license information

@@ -6,9 +6,11 @@ This README documents hardware with a [description](#description), a [list of ma
 
 This buoy is roughly 1m tall, 0.6m wide, it weighs TODO kg and provides a floating platform of 24x30cm. The design aims at ease of reproducibility by using readily available materials, and at ease of transport and assembly. The dynamics of the buoy in water can be adjusted by adding/removing fenders, by altering the weight of the counterweigh, and by changing the depth and central alignment of the counterweights. Like this, the buoy can for example be tuned to stand more upright when towed at a constant speed.
 
+<p float="left">
 <img src="images/buoy_1.jpeg" alt="(image not found)" height="280"> 
 <img src="images/buoy_2.jpeg" alt="(image not found)" height="280">
 <img src="images/in_water_drifting_on_rope_1.png" alt="(image not found)" height="280">
+</p>
 
 ## List of Materials
 
@@ -16,19 +18,21 @@ This buoy is roughly 1m tall, 0.6m wide, it weighs TODO kg and provides a floati
 | - | - | - | - | - | - | - |
 | ![ (image not found)](images/materials/safetybuoy.png) | Safety buoy | 1 | 28.50 | 28.50 | https://www.xxlwater.nl/reddingsboei-leeg-57-cm-met-koord.html | Outer diam. 57cm, Inner diam. 39cm, Ring thickness 9cm, must have holes to attach a rope in 4 corners |
 | ![ (image not found)](images/materials/fender.jpg) | Fender | 4 | 9.29 |  37.16 | https://www.xxlwater.nl/fender-wit.html | Diameter 10cm, Length 42cm, Weight 0.4kg |
-| ![ (image not found)](images/materials/fender_ring.png) | Ringfender | 1 | 17.99 | 17.99 | https://www.xxlwater.nl/ringfender-blauw.html | TODO dimensions weight |
+| ![ (image not found)](images/materials/fender_ring.png) | Ringfender | 1 | 17.99 | 17.99 | https://www.xxlwater.nl/ringfender-blauw.html | [TODO dimensions, weight] |
 | ![ (image not found)](images/materials/counterweight.jpg) | Weightlifting weights | 4 | 4.90 | 19.60 | https://www.fitshop.nl/taurus-gietijzer-halterschijven-met-greep-3g-tf-ti0050-3g | Weight 1.25kg, Inner diam. 30mm which is a standard dimension for weight bars |
-| ![ (image not found)](images/materials/rope_construction.jpg) | Rope polyester |  |  |  |  | Joins the eyes that lift the buoy with the counterweight, so the used rope must have high tensile and abrasion strengths |
-| ![ (image not found)](images/materials) | Wire rope clamp |  |  |  |  |  |
-| ![ (image not found)](images/materials) | Turnbuckle |  |  |  |  |  |
-| ![ (image not found)](images/materials) | Threaded rod |  |  |  |  |  |
-| ![ (image not found)](images/materials) | Retaining ring |  |  |  |  |  |
-| ![ (image not found)](images/materials) | Locknut |  |  |  |  |  |
-| ![ (image not found)](images/materials/D_lock.jpg) | D-Lock |  |  |  |  |  |
+| ![ (image not found)](images/materials/rope_construction.jpg) | Rope polyester | [TODO length] | [TODO] | [TODO] | [TODO] | Joins the eyes that lift the buoy with the counterweight, so the used rope must have high tensile and abrasion strengths |
+| ![ (image not found)](images/materials) | Wire rope clamp | [TODO] | [TODO] | [TODO] | [TODO] |  |
+| ![ (image not found)](images/materials) | Turnbuckle M8 with eye | [TODO] | [TODO] | [TODO] | [TODO] | The winding direction of either end of turnbuckles is not standardized. They must be matched with the winding direction of the rods |
+| ![ (image not found)](images/materials) | Threaded rod 1m M8|  |  |  |  | The winding direction of these rods and the turnbuckles must be matched |
+| ![ (image not found)](images/materials) | Retaining ring M8 |  |  |  |  |  |
+| ![ (image not found)](images/materials) | Locknut M8 |  |  |  |  |  |
+| ![ (image not found)](images/materials/D_lock.jpg) | D-Lock | 4 | [TODO] | [TODO] | [TODO] |  |
 | ![ (image not found)](images/materials) | Zip ties |  |  |  |  |  |
-| ![ (image not found)](images/materials) | Wing nut |  |  |  |  |  |
+| ![ (image not found)](images/materials) | Spacers 30mm for M8 | ~15 to match height of weightlifting weights |  |  |  | Hole diameter matching M8, outer diameter of 30mm to match weightlifting weights |
+| ![ (image not found)](images/materials) | Bolt 15cm M8 | [TODO] | [TODO] |  | [TODO] |  |
+| ![ (image not found)](images/materials) | Wing nut M8 | [TODO] | [TODO] |  | [TODO] |  |
 | |
-|  |  |  |  | TODO |  |  |
+|  |  |  |  | [TODO] |  |  |
 
 ## Assembly
 
@@ -89,3 +93,7 @@ The following steps describe an assembly that aims at making transportation easy
 ## Example Use Cases
 
 This buoy has been used twice, each time continuously for 12h on a ship. For roughly half of the time it was carried mid air on the end of a crane extending from the deck, and for the other half it was floating in water with waves up to 50cm.
+
+## License
+
+See the [README](./../README.md) in the [root directory](./../) of this repo for license information

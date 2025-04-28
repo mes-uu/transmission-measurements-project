@@ -1,6 +1,6 @@
 # Instrumentation for Measurements at the Water Surface
 
-This repository documents hardware that was developed to measure signal transmission feasibility from the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, some more canonic details of the hardware descriptions will be added shortly and marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
+This repository documents hardware that was developed to measure signal transmission feasibility from the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, some more canonic details of the hardware descriptions will be added shortly and are marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
 
 <p float="left">
 <img src="testbed/images/testbed.jpeg" alt="(image not found)" height="280">

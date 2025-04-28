@@ -1,6 +1,7 @@
 import smbus2
 import RPi.GPIO as GPIO
 import struct
+import time
 
 class I2C_Interface():
   """Implements write and read operations for the I2C bus connecting to the modules"""
@@ -10,14 +11,6 @@ class I2C_Interface():
     self.I2C_ADDRESS = i2c_address
     self.MAX_IO_ATTEMPTS = max_io_attempts
     self.BUS = smbus2.SMBus(bus_ind)
-
-  def readByteAsInteger(self) -> int:
-    """Reads 1 byte as unsigned char and return cast as integer"""
-    return self.readInteger(1, False)
-
-  def writeIntegerAsByte(self, value:int) -> None:
-    """Writes 1 byte of integer value cast as unsigned char"""
-    self.writeByte(int.to_bytes(value))
 
   def readPrimitive(self, type:str, request_byte:bytes=b'\x00') -> any:
     """Reads the value of one primitive variable by invoking readPrimitiveArray"""
@@ -92,6 +85,10 @@ class I2C_Interface():
       print("I/O read response " + str(read_bytestream))
     return read_bytestream
 
+  def writeIntegerAsByte(self, value:int) -> None:
+    """Writes a byte of integer value cast as unsigned char"""
+    self.writeByte(int.to_bytes(value))
+
   def parsePrimitiveFormat(self, format_str:str):
     """Translates typestrings into c-type format strings
 
@@ -103,7 +100,7 @@ class I2C_Interface():
     Parameters
     ----------
     format_str:str
-       The format starts with an optional character '<' or '>' indicating the endianness, followed by a character 'b'oolean 'i'nteger 'd'ecimal declaring the type, and ending with the size of the data '1','2','4','8' in bytes. The only exception to this format is the format string "b" for booleans
+       The format starts with an optional character '<' or '>' indicating the endianness, followed by a character 'b'oolean, 'i'nteger, or 'd'ecimal declaring the type, and ending with a character '1','2','4', or '8' for the size of the data in bytes. The only exception to this format is the format string "b" for booleans
 
     Returns
     -------
@@ -126,4 +123,4 @@ class I2C_Interface():
       c_format = bitorder + dic_formats[format_str]
       return c_format, n_bytes
     except:
-      raise Exception("I/O I2C_Interface::readInteger format not recognized or supported '%s'" % format_str)
+      raise Exception("I/O I2C_Interface::parsePrimitiveFormat format not recognized or supported '%s'" % format_str)

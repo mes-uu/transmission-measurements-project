@@ -12,6 +12,26 @@ class I2C_Interface():
     self.MAX_IO_ATTEMPTS = max_io_attempts
     self.BUS = smbus2.SMBus(bus_ind)
 
+  def writeIntegerAsByte(self, value:int) -> None:
+    """Writes the provided integer value in the reange (0, 255) to the remote device"""
+    if(0<=value<=255):
+      self.writeByte(int.to_bytes(value))
+    else:
+      raise Exception("I/O I2C_Interface::writeIntegerAsByte value %d not in range (0,255)" % value)
+
+  def writeByte(self, write_byte:bytes) -> None:
+    """Write a byte to the remote device"""
+    if self.VERBOSE:
+      print("I/O write " + str(write_byte))
+    write_int = int.from_bytes(write_byte)
+    for i in range(self.MAX_IO_ATTEMPTS):
+      try:
+        self.BUS.write_byte(self.I2C_ADDRESS, write_int)
+        return
+      except:
+        time.sleep(0.1)
+    raise Exception("I/O I2C_Interface::writeByte failed")
+
   def readPrimitive(self, type:str, request_byte:bytes=b'\x00') -> any:
     """Reads the value of one primitive variable by invoking readPrimitiveArray"""
     return self.readPrimitiveArray([type], request_byte)[0]
@@ -29,7 +49,7 @@ class I2C_Interface():
     Returns
     -------
     list
-      A list containing the parsed data, according to 'types_array', that was returned by the request
+      A list containing the parsed read data, according to 'types_array'
     """
     c_format = []
     n_bytes = []
@@ -52,19 +72,6 @@ class I2C_Interface():
     """Read a byte from the remote device"""
     return self.readBytestream(1, request_byte)
 
-  def writeByte(self, write_byte:bytes) -> None:
-    """Write a byte to the remote device"""
-    if self.VERBOSE:
-      print("I/O write " + str(write_byte))
-    write_int = int.from_bytes(write_byte)
-    for i in range(self.MAX_IO_ATTEMPTS):
-      try:
-        self.BUS.write_byte(self.I2C_ADDRESS, write_int)
-        return
-      except:
-        time.sleep(0.1)
-    raise Exception("I/O I2C_Interface::writeByte failed")
-
   def readBytestream(self, n_bytes_read:int, request_byte:bytes=b'\x00'):
     """Requests and reads a variable number of bytes from the remote device"""
     if self.VERBOSE:
@@ -84,10 +91,6 @@ class I2C_Interface():
     if self.VERBOSE:
       print("I/O read response " + str(read_bytestream))
     return read_bytestream
-
-  def writeIntegerAsByte(self, value:int) -> None:
-    """Writes a byte of integer value cast as unsigned char"""
-    self.writeByte(int.to_bytes(value))
 
   def parsePrimitiveFormat(self, format_str:str):
     """Translates typestrings into c-type format strings

@@ -1,4 +1,4 @@
-# Conotrol and Datalogging Sytem
+# Control and Datalogging System
 
 This README documents hardware with a [description](#description), a [list of materials](#list-of-materials), instructions for the [assembly](#assembly), additional [remarks](#remarks), and [example use cases](#example-use-cases). The software for the main board and an example for interface boards connecting to an Arduino is provided in the [software](./software/) directory.
 

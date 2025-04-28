@@ -1,6 +1,6 @@
 # Software for the Control and Datalogging System
 
-Since the communication uses a shared I2C bus, this functionality must be enabled on the Pi. [This guide](https://thelinuxcode.com/configure-i2c-raspberry-pi/) explains the setup process, in particular the steps of the section "Enabling I2C in Raspberry Pi Configuration" should be followed.
+## Description
 
 The directory [controlsystem_RaspberryPi](./controlsystem_RaspberryPi/) contains the python scripts that run on the Raspberry Pi:
 
@@ -12,8 +12,16 @@ The directory [controlsystem_RaspberryPi](./controlsystem_RaspberryPi/) contains
 
 * [example_ArduinoUNO.py](./controlsystem_RaspberryPi/example_ArduinoUNO.py) showcases the functionalities of the Arduino UNO implementation
 
-The directory [interface_ArduinoUNO](./interface_ArduinoUNO/) contains an Arduino sketch that implements the module-side of the functionalities provided in 'arduinomodule.py':
+The directory [interface_ArduinoUNO](./interface_ArduinoUNO/) is an Arduino sketch that implements the module-side of the functionalities provided in 'arduinomodule.py':
 
 * [interface_ArduinoUNO.ino](./interface_ArduinoUNO/interface_ArduinoUNO.ino) contains the standard Arduino routines 'setup{}' and 'loop{}'
 
 * [module_interface.h](./interface_ArduinoUNO/module_interface.h) and [module_interface.cpp](./interface_ArduinoUNO/module_interface.cpp) implement the interface functionalities
+
+## Setup
+
+Since the communication uses a shared I2C bus, this functionality must be enabled on the Pi. [This guide](https://thelinuxcode.com/configure-i2c-raspberry-pi/) explains the setup process, in particular the steps of the section "Enabling I2C in Raspberry Pi Configuration" should be followed.
+
+The Arduino sketch [interface_ArduinoUNO](./interface_ArduinoUNO/) can be uploaded to an Arduino UNO board with the Arduino IDE, the Serial Monitor will display information about the interactions with the main board
+
+The files in [controlsystem_RaspberryPi](./controlsystem_RaspberryPi/) are copied to the Raspberry Pi where the script [example_ArduinoUNO.py](./controlsystem_RaspberryPi/example_ArduinoUNO.py) can be run as `python example_ArduinoUNO.py`

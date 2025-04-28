@@ -63,11 +63,16 @@ The interface board only occupies the I2C pins of the module. This makes the int
 
 ## Remarks
 
-[TODO]
+* The following board families have successfully been integrated in the system
+  * Arduino UNO
+  * Arduino MKR
+  * Particle Electron
+
+* We have used the system to take measurements with five and nine modules. All modules were based on Arduino UNO, Arduino MKR or Particle Electron boards. A small degradation of the reliability of the I2C communication was occurring when using nine boards, since I/O exceptions from failed read/write interactions were raised occasionally. Repeating these failed interactions seemed to solve the issue, and it is unclear if this degradation was caused by connecting more modules.
 
 ## Example Use Cases
 
-This system has been used for measurements in two setups. The first setup consisted of Arduino UNOs and Arduino MKRs
+[TODO]
 
 ## License
 

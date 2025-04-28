@@ -4,7 +4,7 @@ This README documents hardware with a [description](#description), a [list of ma
 
 ## Description
 
-The carrierplate has dimensions of 380x320(x10)cm, it weighs [TODO]kg and provides a platform of 24x30cm. Objects can be tied to it with ratchet straps at the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly.
+This carrierplate has dimensions of 380x320(x10)cm, it weighs [TODO]kg and provides a platform of 24x30cm. The testbed-carrierplate combination is buoyant, such that it can be deployed in water without the buoy. Other objects can be tied to it with ratchet straps at the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly.
 
 <p float="left">
 <img src="images/carrierplate_front.jpg" alt="(image not found)" height="280"> 

@@ -18,7 +18,7 @@ In addition, the scripts in the [software](./software/) directory include
 
 * An example implementation of the module interface for Arduino UNO, with time synchronization, a read-write register, and a remotely invokable funtion
 
-The interface board only occupies the I2C pins of the module. This makes the interface board stackable with any board that does not rely on the two I2C pins. For Arduinos and in case of a double-occupation of the hardware I2C interface, either I2C bus can be configured to use alternative pins with the [SoftwareSerial.h](https://docs.arduino.cc/learn/built-in-libraries/software-serial/) library.
+Since the communication is based on I2C, a module must provide this interface. For Arduinos and in case of a double occupation of the hardware I2C interface, the integration is less straight forward: In principle, using the same bus for internal and external communication is possible with the standard Arduino I2C library. However, not all libraries for I2C-based devices are compatible with the provided interface script. In addition, the I2C devices of the module will share the bus with the rest of the datalogging system, in particular any other module that is powered up at the same time. Alternatively, a software I2C library may come in handy to use alternative pins for the communication with the devices of the module, which is supported by some libraries for I2C-based devices.
 
 <p float="left">
 <img src="images/diagram_conotrol_and_datalogging_sytem.png" alt="(image not found)" height="280">
@@ -68,7 +68,7 @@ The interface board only occupies the I2C pins of the module. This makes the int
   * Arduino MKR
   * Particle Electron
 
-* We have used the system to take measurements with five and nine modules. All modules were based on Arduino UNO, Arduino MKR or Particle Electron boards. A small degradation of the reliability of the I2C communication was occurring when using nine boards, since I/O exceptions from failed read/write interactions were raised occasionally. Repeating these failed interactions seemed to solve the issue, and it is unclear if this degradation was caused by connecting more modules.
+* We have used the system to take measurements with five and eight modules. All modules were based on Arduino UNO, Arduino MKR or Particle Electron boards. A small degradation of the reliability of the I2C communication was occurring when using eight boards, since I/O exceptions from failed read/write interactions were raised occasionally. Repeating these failed interactions seemed to solve the issue, and it is unclear if this degradation was caused by connecting more modules.
 
 ## Example Use Cases
 

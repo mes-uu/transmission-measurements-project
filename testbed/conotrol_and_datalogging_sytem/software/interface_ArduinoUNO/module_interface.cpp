@@ -101,7 +101,7 @@ void requestEvent() {
       int i2 = -32100;
       unsigned int u2 = 65432;
       long i4 = -1234567890;
-      unsigned long u4 = 4567890123;
+      unsigned long u4 = 3456789012;
       float d4_1 = -0.1234567890;
       float d4_2 = 12345.67890;
       double d4_3 = -0.1234567890; // is the same (the same (the same!)~)* datatype as float for Arduino UNOs

@@ -1,6 +1,6 @@
 # Instrumentation for Measurements at the Water Surface
 
-This repository documents hardware that was developed to measure signal transmission feasibility from the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, some more canonic details of the hardware descriptions will be added shortly and are marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
+This repository documents hardware that was developed to measure signal transmission feasibility from the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, more content will be added later in the sections marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
 
 <p float="left">
 <img src="testbed/images/testbed.jpeg" alt="(image not found)" height="280">
@@ -36,13 +36,13 @@ The repository is structured according to different components of the instrument
 
 The research project is part of the Vici ENW programme ['Tracing Marine Macroplastics by Unraveling the Ocean's Multiscale Transport Processes'](https://www.nwo.nl/en/projects/vic222025)
 
-* Project holder: Marc Schneiter, PhD candidate (m.e.schneiter@uu.nl)
+* Project holder: Marc Schneiter, PhD candidate (m.e.schneiter-at-uu.nl)
 * Contributors:
-	* Co-Supervision PhD: Rolf Hut (R.W.Hut@tudelft.nl)
-  * Supervision PhD: Erik van Sebille (e.vansebille@uu.nl)
-  * Technical support: Marcel Portanger (m.portanger@uu.nl)
+	* Co-Supervision PhD: Rolf Hut (R.W.Hut-at-tudelft.nl)
+  * Supervision PhD: Erik van Sebille (e.vansebille-at-uu.nl)
+  * Technical support: Marcel Portanger (m.portanger-at-uu.nl)
   * Deployments and Measurements: Lagrangian Ocean Analysis team Utrecht (https://oceanparcels.org/utrechtteam)
-  * Pictures: Isabelle Pelster José (i.pelsterjose@students.uu.nl), Goncalo Borges Simoes de Albergaria Dias (g.borgessimoesdealbergariadias@uu.nl)
+  * Pictures: Isabelle Pelster José (i.pelsterjose-at-students.uu.nl), Goncalo Borges Simoes de Albergaria Dias (g.borgessimoesdealbergariadias-at-uu.nl)
 
 ## Get involved
 

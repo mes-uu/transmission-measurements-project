@@ -4,7 +4,7 @@ This README documents hardware with a [description](#description), a [list of ma
 
 ## Description
 
-This carrierplate has dimensions of 380x320(x10)cm, it weighs [TODO]kg and provides a platform of 24x30cm. The testbed-carrierplate combination is buoyant, such that it can be deployed in water without the buoy. Other objects can be tied to it with ratchet straps at the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly.
+This carrierplate has dimensions of 38x32(x10)cm, it weighs 3-4kg and provides a platform of 30x24cm. The testbed-carrierplate combination is buoyant, such that it can be deployed in water without the buoy. Other objects can be tied to it with ratchet straps at the six slits along the edges. The plate can be equipped with eyes and rod clamps for mounting options. The design aims at ease of reproducibility by using readily available materials, and at ease of assembly.
 
 <p float="left">
 <img src="images/carrierplate_front.jpg" alt="(image not found)" height="280"> 
@@ -24,7 +24,7 @@ This carrierplate has dimensions of 380x320(x10)cm, it weighs [TODO]kg and provi
 |  | Bolt |  |  |  | [TODO] |  |
 |  | Locknut |  |  |  | [TODO] |  |
 |  | Washer |  |  |  | [TODO] |  |
-|  | Ratchet straps | 2 | 5.50 | 11.00 | https://www.hornbach.nl/p/sjorband-mamutec-25-mm-5-m/7769185/ |  |
+|  | Ratchet strap | 2 | 5.50 | 11.00 | https://www.hornbach.nl/p/sjorband-mamutec-25-mm-5-m/7769185/ |  |
 | |
 |  |  |  |  | [TODO] |  |  |
 
@@ -35,6 +35,13 @@ This carrierplate has dimensions of 380x320(x10)cm, it weighs [TODO]kg and provi
 2) Coating the open edges with edge sealer paint
 
 3) Assembly with metal clamps and eyes
+
+<p float="left">
+<img src="./images/assembly/step1.1.jpg" alt="(image not found)" height="280">
+<img src="./images/assembly/step1.2.jpg" alt="(image not found)" height="280">
+</p>
+
+[TODO] add 1-2 pictures for clamps
 
 ## Remarks
 

@@ -9,8 +9,11 @@ This carrierplate has dimensions of 38x32(x10)cm, it weighs 3-4kg and provides a
 <p float="left">
 <img src="images/carrierplate_front.jpg" alt="(image not found)" height="280"> 
 <img src="images/carrierplate_back.jpg" alt="(image not found)" height="280">
+</p>
+<p float="left">
 <img src="images/carrierplate_on_rod_horizontal.png" alt="(image not found)" height="280">
 <img src="images/carrierplate_on_rod_vertical.jpeg" alt="(image not found)" height="280">
+<img src="images/carrierplate_testbed_towed.png" alt="(image not found)" height="280">
 </p>
 
 ## List of Materials
@@ -44,6 +47,8 @@ This carrierplate has dimensions of 38x32(x10)cm, it weighs 3-4kg and provides a
 [TODO] add 1-2 pictures for clamps
 
 ## Remarks
+
+* Since the testbed-carrierplate combination is buoyant, this setup can be deployed in water. For towing, the anchor point and weight distribution are decisive for how the setup lies in the water. The anchor point can be lowered by eg mounting an eye in the reversed direction from the other ones.
 
 [TODO]
 

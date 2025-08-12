@@ -12,11 +12,11 @@ This buoy is roughly 1m tall, 0.6m wide, it weighs [TODO]kg and provides a float
 <img src="images/in_water_drifting_on_rope_1.png" alt="(image not found)" height="280">
 </p>
 
-## List of Materials (created May 2024)
+## List of Materials (As of May 2024)
 
 | <div style="width:150px">Image</div> | Designator | Quantity | Price/Quantity (EUR) | Total Cost (EUR) | Source | Remarks |
 | - | - | - | - | - | - | - |
-|  | Carrierplate with ratchet straps | 1 |  |  | [Link to the README.md](../carrierplate/README.md) |  |
+| [TODO] | Carrierplate with ratchet straps | 1 |  |  | [Link to the README.md](../carrierplate/README.md) |  |
 | ![ (image not found)](images/materials/safetybuoy.png) | Safety buoy | 1 | 28.50 | 28.50 | https://www.xxlwater.nl/reddingsboei-leeg-57-cm-met-koord.html | Outer diam. 57cm, Inner diam. 39cm, Ring thickness 9cm, must have holes to attach a rope in 4 corners |
 | ![ (image not found)](images/materials/fender.jpg) | Fender | 4 | 9.29 |  37.16 | https://www.xxlwater.nl/fender-wit.html | Diameter 10cm, Length 42cm, Weight 0.4kg |
 | ![ (image not found)](images/materials/fender_ring.png) | Ringfender | 1 | 17.99 | 17.99 | https://www.xxlwater.nl/ringfender-blauw.html | [TODO dimensions, weight] |
@@ -28,7 +28,7 @@ This buoy is roughly 1m tall, 0.6m wide, it weighs [TODO]kg and provides a float
 |  | Retaining ring M8 |  |  |  | [TODO] |  |
 |  | Locknut M8 |  |  |  | [TODO] |  |
 | ![ (image not found)](images/materials/D_lock.jpg) | D-Lock | 4 |  |  | [TODO] |  |
-|  | Zip ties |  |  |  | [TODO] |  |
+|  | Zip ties |  |  |  | [TODO] | Interlocking strength and tear resistance can vary significantly |
 |  | Spacers 30mm for M8 | ~15 to match height of weightlifting weights |  |  |  | Hole diameter matching M8, outer diameter of 30mm to match weightlifting weights |
 |  | Bolt 15cm M8 |  |  |  | [TODO] |  |
 |  | Wing nut M8 |  |  |  | [TODO] |  |
@@ -83,9 +83,7 @@ The following steps describe an assembly that aims at making the transportation 
 
 ## Remarks
 
-* Vibrations caused by the ship during transits, and the perpetual motion in the water loosened the connections at the turnbuckles. This effect was supressed by using zip ties as described in step 3 above. This improved but did not completely solve the issue. The same applies to the screw-locks of the retaining rings, which worked reliably during 12h when strongly tightened
-
-* [TODO] choice of zip ties matters (interlocking, strains, ...) best to test beforehand
+* Vibrations of the ship during transits, and the perpetual motion in the water loosened the connections at the turnbuckles. This effect can be counteracted by using zip ties as described in step 3 above. This improved but did not completely solve the issue. The same applies to the screw-locks of the retaining rings, which worked reliably during 12h when strongly tightened
 
 <!--
 [//]: # (* Lifting and towing: The )

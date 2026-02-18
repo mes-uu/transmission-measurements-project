@@ -4,7 +4,7 @@ This README documents hardware with a [description](#description), a [list of ma
 
 ## Description
 
-The hardware and software described here enables two main functionalities:
+The hardware and software described here consists of one central datalogger for 75euro and multiple independent remote modules for 10-20euro each, that enable two main functionalities:
 
 1) Remote, programmable power control by the main board (Raspberry Pi) for each module
 
@@ -32,7 +32,7 @@ Since the communication is based on I2C, a module must provide this interface. F
 | - | - | - | - | - | - | - |
 | ![ (image not found)](images/materials/raspberry_pi_zero_2_w.jpg) | Raspberry Pi - Raspberry Pi® Zero 2 W 512 MB 1 x | 1 | 18.48 | 18.48 | https://www.conrad.com/en/p/raspberry-pi-zero-2-w-raspberry-pi-zero-2-w-512-mb-1-x-1-0-ghz-2482940.html |  |
 | ![ (image not found)](images/materials/logic_level_converter_bi_directional.jpg) | Logic Level Converter - SparkFun Logic Level Converter Bi Directional | 2-3 | 3.50 | 2-3 * 3.50 | https://opencircuit.shop/product/sparkfun-logic-level-converter-bi-directional | Number of required channels is 2+number of modules |
-| ![ (image not found)](images/materials/power_bank_30000_mah_lipo_usb.jpg) | Power Bank - Verico Power Pro PD Power bank 30000 mAh LiPo USB type | 1 | 30.24 | 30.24 | https://www.conrad.com/en/p/verico-power-pro-pd-power-bank-30000-mah-lipo-usb-type-a-usb-c-black-2583063.html |  |
+| ![ (image not found)](images/materials/power_bank_30000_mah_lipo_usb.jpg) | Power Bank - Verico Power Pro PD Power bank 30000 mAh LiPo USB type | 1 | 30.24 | 30.24 | https://www.conrad.com/en/p/verico-power-pro-pd-power-bank-30000-mah-lipo-usb-type-a-usb-c-black-2583063.html | Such powerbanks often have a minimum current theshold (~50mA) below which the output is automatically turned off |
 | ![ (image not found)](images/materials/cable_usb_type_a_to_micro.jpg) | Micro USB cable |  |  |  |  | Should be tested to reliably provide sufficient power to the Pi |
 | ![ (image not found)](images/materials/header_rasberry_pi.jpg) | Header 2x20 | 1 | 1.23 | 1.23 | https://www.conrad.nl/nl/p/tru-components-male-header-standaard-aantal-rijen-2-aantal-polen-per-rij-20-1581040-1-stuk-s-1581040.html |  |
 | ![ (image not found)](images/materials/socket_raspberry_pi.jpg) | Socket 2x20 | 1 | 2.73 | 2.73 | https://www.conrad.nl/nl/p/econ-connect-female-header-standaard-aantal-rijen-2-aantal-polen-per-rij-20-bl20-2g8-1-stuk-s-1303423.html |  |
@@ -40,9 +40,9 @@ Since the communication is based on I2C, a module must provide this interface. F
 | ![ (image not found)](images/materials/usb_a_connector_cap.jpg) | USB connector cap | 1 | 0.61 | 0.61 | https://www.conrad.com/en/p/bkl-electronic-cap-for-usb-a-connector-bend-relief-usb-a-cap-747037.html |  |
 | ![ (image not found)](images/materials/6pin_board_connector.jpg) | (6pin board connector - TE Pin strip AMPMODU MOD II Contact spacing: 2.54 mm) | (no. modules) | (1.08) | (N * 1.08) | https://www.conrad.com/en/p/te-connectivity-pin-strip-standard-ampmodu-mod-ii-total-number-of-pins-6-contact-spacing-2-54-mm-280379-2-1-pc-s-1079641.html | Contact spacing 2.54mm, 5pin connector also suffices |
 | ![ (image not found)](images/materials/2pin_power_screw_terminal.png) | (2pin power screw terminal - PTR Hartmann 50500020134G Contact spacing: 5.08 mm) | (1) | (0.17) | (0.17) | https://www.conrad.nl/nl/p/ptr-hartmann-50500020134g-klemschroefblok-1-50-mm-aantal-polen-2-grijs-1-stuk-s-731877.html |  |
-| ![ (image not found)](images/materials/prototyping_board.png) | PCB Prototype Board | 1 | 4.3 | 4.3 | https://nl.farnell.com/en-NL/gspk-circuits/gc004-lf/prototyping-board-fr4-100mm-x/dp/3263920 | Contact spacing 2.54mm, TODO approx dimensions |
+| ![ (image not found)](images/materials/prototyping_board.png) | PCB Prototype Board | 1 | 4.3 | 4.30 | https://nl.farnell.com/en-NL/gspk-circuits/gc004-lf/prototyping-board-fr4-100mm-x/dp/3263920 | Contact spacing 2.54mm, TODO approx dimensions |
 | |
-|  |  |  |  | [TODO] |  |  |
+|  |  |  |  | 75.35 |  | Price for n=3 logic level converters and N=6 module connectors |
 
 ### Module Interface
 
@@ -58,7 +58,7 @@ Since the communication is based on I2C, a module must provide this interface. F
 | ![ (image not found)](images/materials/2pin_power_screw_terminal.png) | (2pin power screw terminal - PTR Hartmann 50500020134G Contact spacing: 5.08 mm) | (1) | (0.17) | (0.17) | https://www.conrad.nl/nl/p/ptr-hartmann-50500020134g-klemschroefblok-1-50-mm-aantal-polen-2-grijs-1-stuk-s-731877.html |  |
 | ![ (image not found)](images/materials/arduino_proto_shield.jpg) | PCB Prototype Board Contact spacing: 2.54 mm - (Arduino PROTO SHIELD Development board) | 1 | (12.39) | (12.39) | https://www.conrad.nl/nl/p/arduino-proto-shield-development-board-1969858.html | Contact spacing 2.54mm; The headers of this board are aligned with the headers of the standard Arduino layout. Other, cheaper prototype boards can be used with the caveat of having to align the headers manually |
 | |
-|  |  |  |  | [TODO] |  |  |
+|  |  |  |  | 8.35(+12.39) |  | Price for one module (+optional Arduino Prototype Board) |
 
 ## Assembly
 

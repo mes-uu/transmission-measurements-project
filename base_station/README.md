@@ -30,9 +30,11 @@ The tube and parasol stand can be chosen based on the diameter of the antenna ba
 
 ## Assembly
 
-Only the metal tube requires a few modifications with basic metalworking, as show here. Four cuts along the length of the tube, together with a winged hose clamp, make up the fitting that can be tightened to fixate the antenna. To thread the cable of the antenna to the transmitter, a hole is drilled below this fitting, keeping the tension and the potential cutting of the metallic edges into the cable from vibrations etc. in mind. The edges of the hole may also be covered, e.g. with a rubber.
+Only the metal tube requires a few modifications with basic metalworking, as shown in the picture below. Four cuts along the length of the tube, together with a winged hose clamp, make up the fitting that can be tightened to fixate the antenna. To thread the cable of the antenna to the transmitter, a hole is drilled below this fitting, keeping the tension and the potential cutting of the metallic edges into the cable from vibrations etc. in mind. The edges of the hole may also be covered, e.g. with a rubber.
 
 Filling the base of the parasol stand with wet sand (or mud) instead of water worked well and avoids drainage in case the base container is leaky, making the installation more reliable.
+
+<img src="images/production_metal_tube.jpg" alt="(image not found)" height="280">
 
 ## Remarks
 

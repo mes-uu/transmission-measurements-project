@@ -7,7 +7,7 @@ MODULE_ENABLE_GPIO_PIN = 11
 I2C_BUS_NUMBER = 1
 
 debugging = False
-m = ArduinoModule(11, 0x1a, 1, True)
+m = ArduinoModule(MODULE_ENABLE_GPIO_PIN, MODULE_I2C_ADDRESS, I2C_BUS_NUMBER, True)
 
 m.powerUp()
 m.I2C_ack()

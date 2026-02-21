@@ -8,7 +8,7 @@ class Module():
     GPIO.setmode(GPIO.BOARD)
     self.GPIO_POWER_PIN = GPIO_power_pin
     GPIO.setup(self.GPIO_POWER_PIN, GPIO.OUT)
-    self.setPower(False)
+    self.setPower(GPIO.LOW)
     self.I2C_device = I2C_Interface(bus_ind, i2c_address, verbose=verbose)
 
   def get_I2C(self):

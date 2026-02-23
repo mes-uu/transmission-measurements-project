@@ -4,7 +4,7 @@ This README documents hardware with a [description](#description), a [list of ma
 
 ## Description
 
-This base station is to temporarily place an antenna and connected transmitter on a flat surface.
+This base station is used to temporarily place an antenna and transmitter on a flat surface.
 
 The main design criteria are
 - Weather proofness
@@ -18,7 +18,7 @@ The main design criteria are
 
 ## List of Materials
 
-The tube and parasol stand can be chosen based on the diameter of the antenna base: The walls of the metal tube should have a width of a few millimeters, to be sturdy but bedabble. The diameter of the metal tube must be slightly larger but not much larger than the diameter of the antenna. The diameter of the tube in turn must fit the fitting of the parasol stand. The stability of the antenna relies on the stability of the parasol stands fitting.
+The tube and parasol stand can be chosen based on the diameter of the antenna base: The diameter of the metal tube must be slightly larger but not much larger than the diameter of the antenna. The diameter of the tube in turn must fit the fitting of the parasol stand. The walls of the metal tube should have a width of a few millimeters, to be sturdy but bedabble. The stability of the antenna relies on the stability of the parasol stands fitting.
 
 | <div style="width:150px">Image</div> | Designator | Quantity | Price/Quantity (EUR) | Total Cost (EUR) | Source | Remarks |
 | - | - | - | - | - | - | - |

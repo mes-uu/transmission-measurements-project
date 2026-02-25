@@ -54,4 +54,4 @@ Comments and suggestions are always welcome. Please create an issue to share you
 
 ## License
 
-This project is released under the [Creative Commons - Attribution - NonCommercial - ShareAlike 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) license.
+This project is released under the [Creative Commons - Attribution - ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/) license.

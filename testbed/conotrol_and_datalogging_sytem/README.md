@@ -6,9 +6,9 @@ This README documents hardware with a [description](#description), a [list of ma
 
 The hardware and software described here consists of one central datalogger for 75euro and multiple independent remote modules for 10-20euro each, that enable two main functionalities:
 
-1) Remote, programmable power control by the main board (Raspberry Pi) for each module
+1) Remote, programmable power control by the main board (Raspberry Pi) for each module. Each module can have its own power supply (1.8-5V) or share it with the contol system.
 
-2) A shared I2C bus with the main board (Raspberry Pi) as the root device and the modules as the node devices
+2) A shared 2-wire (I2C) bus with the main board (Raspberry Pi) as the root device and the modules as the node devices
 
 In addition, the scripts in the [software](./software/) directory include
 

@@ -1,6 +1,6 @@
-# Instrumentation for Measurements at the Water Surface
+# DIY Instrumentation for Water Surface Measurements
 
-This repository documents hardware that was developed to measure signal transmission feasibility from the water surface, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, more content will be added later in the sections marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
+This repository documents hardware that was developed as part of a research project, see the [repository contents and structures](#repository-contents-and-structure) for an overview. The repository is currently under construction, more content will be added later in the sections marked as [TODO]. Feel free to [contact me](mailto:m.e.schneiter@uu.nl) for content-related questions in the meantime.
 
 <p float="left">
 <img src="testbed/images/testbed.jpeg" alt="(image not found)" height="280"> <img src="buoy/images/buoy_1.jpeg" alt="(image not found)" height="280">

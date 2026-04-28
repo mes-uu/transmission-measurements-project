@@ -20,7 +20,7 @@ The case that houses the electronics was chosen for its waterproofness rating IP
 
 We achieve a charging current of 1 ampere for a standard 5 volts power bank trough the 4mm thick wall of the case. The solution consists of a standard 15 watts wireless charger and a wireless receiver module that supports the inductive charging Qi standard, which is commonly supported by modern wireless charger pads for mobile phones.
 
-Wireless charging can be used to continuously run the test system, which facilitates the sometimes time consuming and delicate process of equipping and closing (sealing) the testbed for reliable waterproofness, and it avoids the need to open the box for charging. While wireless charging is slower than charging with a wire, it is possible to attain a practical charging rate.
+Wireless charging can be used to continuously run the test system, which avoids the need to open the box for charging. This facilitates the sometimes time consuming and delicate preparation procedure of equipping and closing (sealing) the testbed for reliable waterproofness. While wireless charging is slower than charging with a wire, it is possible to attain a practical charging rate.
 
 Integration considerations
 
